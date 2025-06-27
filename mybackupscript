@@ -1,0 +1,8 @@
+
+#!/bin/bash
+
+BDIR=/backup
+BDATE=$(date +'%d.%m.%Y_%H.%M')
+FILENAME=$BDIR/$(hostname)_$BDATE
+HHHHHHHH
+tar -czvf $FILENAME.tar.gz -C /home/maksim11 . &> $FILENAME.log
